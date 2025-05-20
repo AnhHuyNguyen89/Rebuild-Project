@@ -194,7 +194,7 @@ export function Menu({
                   />
                 ))}
               </div>
-              <div className="border-t border-gray-200 pt-4 mt-4">
+              <div className="border-t border-gray-200 text-black pt-4 mt-4">
                 <div className="flex justify-between mb-4">
                   <span className="font-semibold">Subtotal:</span>
                   <span className="font-bold">
