@@ -15,6 +15,7 @@ function App() {
         <Route path="/AboutUs" element={<AboutUs />} />
         <Route path="/ContactUs" element={<ContactUs />}></Route>
         <Route path="/MenuPage" element={<MenuPage />}></Route>
+        <Route path="*" element={<h1>This page was not found.</h1>} />
       </Routes>
     </BrowserRouter>
   );

@@ -42,8 +42,7 @@ export function Footer() {
                   href="#contact"
                   className="text-gray-400 hover:text-white transition"
                 >
-                  Contact
-                  <i className="fas fa-shopping-cart"></i>
+                  Contact Us
                 </a>
               </li>
             </ul>
