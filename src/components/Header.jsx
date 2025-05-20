@@ -44,7 +44,7 @@ export function Header({ cartCount, toggleCart }) {
               )}
             </button>
 
-            {/* Hamburger Button */}
+            {/* Cart Button */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
               className="md:hidden text-gray-700 focus:outline-none"
@@ -76,7 +76,7 @@ export function Header({ cartCount, toggleCart }) {
 
         {/* Mobile Menu (Animated Slide Down) */}
         <div
-          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+          className={`md:hidden overflow-hidden text-center transition-all duration-300 ease-in-out ${
             menuOpen ? "max-h-96 opacity-100 py-2" : "max-h-0 opacity-0"
           }`}
         >
