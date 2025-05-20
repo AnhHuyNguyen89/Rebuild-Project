@@ -43,24 +43,24 @@ export const foodItems = [
   },
   {
     id: 7,
-    name: "Iced Coffee",
+    name: "Red Velvet",
     price: 3.99,
     image:
-      "https://images.unsplash.com/photo-1559496417-e7f25cb247f3?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://www.rainbownourishments.com/wp-content/uploads/2023/02/vegan-red-velvet-cupcakes-1.jpg",
   },
   {
     id: 8,
-    name: "Iced Coffee",
+    name: "Strawberry Matcha",
     price: 3.99,
     image:
-      "https://images.unsplash.com/photo-1559496417-e7f25cb247f3?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://www.maryswholelife.com/wp-content/uploads/2024/07/Strawberry-Matcha-Tea-05.jpg",
   },
   {
     id: 9,
-    name: "Iced Coffee",
+    name: "Iced Latte",
     price: 3.99,
     image:
-      "https://images.unsplash.com/photo-1559496417-e7f25cb247f3?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://www.pumpkinnspice.com/wp-content/uploads/2022/07/IMG_1386.jpg",
   },
 ];
 

@@ -26,7 +26,9 @@ export function MenuPage() {
 
   // Remove item from cart
   const removeFromCart = (itemId) => {
-    setCart((prevCart) => prevCart.filter((item) => item.id !== itemId));
+    if (typeof window !== "undefined") {
+      setCart((prevCart) => prevCart.filter((item) => item.id !== itemId));
+    }
   };
 
   // Calculate total items in cart
