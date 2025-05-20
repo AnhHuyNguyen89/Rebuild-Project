@@ -88,7 +88,7 @@ export function Footer() {
                 id={id}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="flex-1 px-1 py-2 bg-gray-800 text-white rounded sm:rounded-l sm:rounded-r-none focus:outline-none w-full"
+                className="flex-1 px-2 py-2 bg-gray-800 text-white rounded sm:rounded-l sm:rounded-r-none focus:outline-none w-full"
               />
               <button
                 type="submit"
