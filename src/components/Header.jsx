@@ -10,7 +10,11 @@ export function Header({ cartCount, toggleCart }) {
         <div className="flex justify-between items-center py-3">
           {/* Left: Logo */}
           <div className="flex items-center space-x-2">
-            <img src="/src/assets/2.svg" width="50px" height="50px" />
+            <img
+              src="https://i.postimg.cc/YCL99JRj/2.png"
+              width="50px"
+              height="50px"
+            />
             <Link to="/" className="text-2xl font-bold text-gray-800">
               Buttery Bar
             </Link>
