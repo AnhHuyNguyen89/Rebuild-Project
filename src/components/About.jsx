@@ -5,9 +5,9 @@ export function About() {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
             <img
-              src="/src/assets/3.png"
+              src="https://i.postimg.cc/pVKJ960G/3.png"
               alt="Our restaurant"
-              className="w-lg ml-10 h-auto rounded-lg shadow-md"
+              className="w-full h-auto rounded-lg shadow-md"
             />
           </div>
           <div className="md:w-1/2">
